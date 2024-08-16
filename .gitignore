@@ -6,3 +6,9 @@ node_modules
 # CDK asset staging directory
 .cdk.staging
 cdk.out
+
+# python venv
+venv/
+env/
+.venv/
+.env/

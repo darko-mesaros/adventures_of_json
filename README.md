@@ -3,7 +3,7 @@
 This is a [AWS CDK](https://aws.amazon.com/cdk/) repository that contains the entire infrastructure for the `Adventures of JSON` Twitch series.
 
 As of **2024-08-15** this is the rough flow of `JSON`:
-![Mermaid chart](/img/mermaidflow.png)
+![Mermaid chart](/img/diagram.png)
 
 ## Starting the adventure
 
