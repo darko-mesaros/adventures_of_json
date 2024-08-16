@@ -1,0 +1,10 @@
+graph TD
+    S3[S3 Bucket: the-spicy-platypus-tiki-bar] -->|Object Created| EB[EventBridge Rule]
+    EB -->|Triggers| VL[Village Lambda]
+    VL -->|Sends Message| SQS[SQS Queue]
+    SQS -->|Triggers| TL[Tower Lambda]
+    TL -->|HTTP POST| API[API Gateway]
+    API -->|PutItem| DDB[DynamoDB: ittybitty]
+
+    classDef aws fill:#FF9900,stroke:#232F3E,stroke-width:2px,color:#232F3E;
+    class S3,EB,VL,SQS,TL,API,DDB aws;

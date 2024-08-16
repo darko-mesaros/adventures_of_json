@@ -1,0 +1,27 @@
+{
+  "name":"Jatson",
+  "creation_date": "2024-02-15",
+  "level": 2,
+  "abilities" : {
+    "security" : 0,
+    "elasticity" : 1,
+    "durability" : 11,
+    "versioning" : true,
+    "filtered": true
+  },
+  "inventory" : [
+    "stick"
+  ],
+  "services_visited" : [
+    "s3",
+    "eventBridge"
+  ],
+  "events" : [
+    {
+    "multiPartUploadFailed": "2024-02-15"
+    },
+    {
+      "sam_9010SolvedTheProblem": "2024-02-15"
+    }
+  ]
+}
